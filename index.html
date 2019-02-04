@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+	<h1>Simple Form</h1>
+	<form class="registration-form">
+		<input type="full name" placeholder="full name" class="fullname">
+		<input type="email" placeholder="email" class="email">
+		<input type="date" name="bday" class="date">
+		<input type="mobile number" placeholder="mobile number" class="mobilenumber">
+		<input type="username" placeholder="username" class="username">
+		<input type="password" placeholder="password" class="password">
+		
+		<div>
+			<h2>Gender</h2> 
+			<input type="radio" id="Male" name="Gender"><label for="Male">Male</label>
+			<input type="radio" id="Female"name="Gender"><label for="Female">Female</label>
+			<input type="radio" id="Other"name="Gender"><label for="Other">Other</label>
+		</div>
+
+			<input type="Submit" onclick="alert('Register Successfully')" name="Submit" class="submit">
+	</form>
+</body>
+</html>
